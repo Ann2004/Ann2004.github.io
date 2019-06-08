@@ -1,0 +1,338 @@
+html,
+body {
+  margin: 0;
+}
+.header_pic {
+  background: url("pic/img1.jpg") 50% / cover;
+  height: 350px;
+  width: 100%;
+}
+.header_div {
+  background-color: rgb(117, 117, 117);
+  margin: 0;
+  box-sizing: border-box;
+}
+.hightech_header {
+  font-size: 4.2rem;
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 0 0 40%;
+}
+.nav {
+  background-color: rgb(117, 117, 117);
+  display: flex;
+  justify-content: flex-start;
+}
+li {
+  font-size: 1.3rem;
+  margin: 5px 1px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.a_nav {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.a_nav:hover {
+  color: white;
+  background-color: rgb(143, 143, 143);
+  transition: 0.3s ease-in-out;
+}
+.a_nav:active {
+  color: black;
+  background-color: #fff;
+  border: 1px solid black;
+  transition: 0.1s;
+}
+.block2,
+.block3,
+.block4 {
+  margin: 100px 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.342);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(215, 220, 228);
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  color: rgb(90, 85, 85);
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+.cards {
+  justify-content: center;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+.card1,
+.card3,
+.card5 {
+  width: 100%;
+  background-color: white;
+  box-shadow: 1 1 10px rgba(0, 0, 0, 0.342);
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.452);
+  padding: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.card2,
+.card4,
+.card6 {
+  width: 100%;
+  background-color: white;
+  box-shadow: 1 1 10px rgba(0, 0, 0, 0.342);
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.452);
+  padding: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.card1:hover,
+.card3:hover,
+.card5:hover {
+  border: 1px solid rgb(0, 81, 255);
+  transition: 1s ease-in-out;
+}
+.card2:hover,
+.card4:hover,
+.card6:hover {
+  border: 1px solid rgb(0, 81, 255);
+  transition: 1s ease-in-out;
+}
+.pic1 {
+  background: url("pic/Auto1.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 300px;
+}
+.pic1:hover,
+.pic2:hover,
+.pic3:hover,
+.pic4:hover,
+.pic5:hover,
+.pic6:hover,
+.pic7:hover,
+.pic8:hover,
+.pic9:hover,
+.pic10:hover,
+.pic11:hover,
+.pic12:hover {
+  filter: none;
+  transition: 0.3s ease-in-out;
+}
+.pic2 {
+  background: url("pic/Auto3.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px;
+}
+.pic3 {
+  background: url("pic/Auto2.webp") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px;
+}
+.pic4 {
+  background: url("pic/Auto4.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 300px;
+}
+.pic5 {
+  background: url("pic/gadjet4.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 500px;
+}
+.pic6 {
+  background: url("pic/gadjet2.jpeg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px;
+}
+.pic7 {
+  background: url("pic/Gadjet1.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px;
+}
+.pic8 {
+  background: url("pic/gadjet3.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 400px;
+}
+.pic9 {
+  background: url("pic/robot1.png") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 400px;
+}
+.pic10 {
+  background: url("pic/robot3.png") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px;
+}
+.pic11 {
+  background: url("pic/robots4.png") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 200px;
+}
+.pic12 {
+  background: url("pic/robot4.jpg") 50% / cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 400px;
+}
+.footer {
+  background-color: rgb(103, 104, 105);
+  width: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.342);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  text-align: center;
+  margin: 0;
+  line-height: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: black;
+  box-sizing: border-box;
+}
+.tekst2,
+.tekst1 {
+  width: 90%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.footer_tekst {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.footer_tekst:hover {
+  text-decoration: none;
+}
+.a_h3 {
+  text-decoration: none;
+  color: black;
+}
+.a_h3:hover {
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url(pic/background_1024.png);
+    background-attachment: fixed;
+  }
+  .block2,
+  .block3,
+  .block4 {
+    margin: 200px 0;
+    box-sizing: border-box;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  .card1,
+  .card3,
+  .card5 {
+    width: 63.75%;
+  }
+  .card2,
+  .card4,
+  .card6 {
+    width: 63.75%;
+  }
+  .nav {
+    justify-content: center;
+  }
+  li {
+    margin: 5px 48px;
+    box-sizing: border-box;
+  }
+  .a_nav {
+    padding: 5px 20px;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 1024px) {
+  .card1,
+  .card3,
+  .card5 {
+    width: 55%;
+    display: flex;
+    height: 400px;
+  }
+  .card2,
+  .card4,
+  .card6 {
+    width: 33%;
+    height: 400px;
+  }
+  .pic1,
+  .pic4,
+  .pic5,
+  .pic8,
+  .pic9,
+  .pic12 {
+    height: 100%;
+    width: 56%;
+  }
+  .pic2,
+  .pic3,
+  .pic6,
+  .pic7,
+  .pic10,
+  .pic11 {
+    height: 38%;
+  }
+  .tekst1 {
+    width: 44%;
+  }
+}
+@media (min-width: 1366px) {
+  .card1,
+  .card3,
+  .card5 {
+    width: 42%;
+    display: flex;
+    height: 350px;
+  }
+  .card2,
+  .card4,
+  .card6 {
+    width: 20%;
+    height: 350px;
+  }
+  .card1:hover,
+  .card3:hover,
+  .card5:hover {
+    width: 44%;
+    transition: 0.3s;
+  }
+  .card2:hover,
+  .card4:hover,
+  .card6:hover {
+    width: 22%;
+    transition: 0.3s;
+  }
+}
